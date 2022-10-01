@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100px;
+}
+
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+
+.list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+
+}
+
+.list-item{
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(15, 15, 15);
+}
+
+.list-item-1{
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(15, 15, 15);
+    text-decoration: underline;
+}
+
+.button-group{
+    display: flex;
+}
+
+.search-icon{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.nav-button{
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.hero-container{
+    display: flex;
+}
+
+.hero-container-right{
+    margin: 20px 30px;
+}
+
+.hero-1{
+    /* width: 50px; */
+    /* height: 50px; */
+    position: absolute;
+    left: 50px;
+    margin-top: 30px;
+}
+
+.square{
+    position: absolute;
+    left: 100px;
+    top: 42%;
+    z-index: -1;
+    margin-top: 5px;
+}
+
+
+.hero-heading{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 450px ;
+}
+
+.hero-description{
+    text-align: center;
+    color: rgb(95, 93, 93);
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 450px ;
+}
+
+.button-email{
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin-top: 50px;
+    margin-left: 700px;
+}
+
+.button-join{
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+
+.contact-heading{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 50px;
+    color: rgb(92, 91, 91);
+}
+
+.icons{
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+
+.start{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+
+.globe{
+    position: absolute;
+    top: 20%;
+    right: 40%;
+}
+
+.start-1{
+    position: absolute;
+    right: 59%;
+    top: 85%;
+    width: 10px;
+    height: 5px;
+}
